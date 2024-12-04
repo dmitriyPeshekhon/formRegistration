@@ -1,0 +1,80 @@
+.container {
+	width: 350px;
+	border: solid white 1px;
+	border-radius: 12px;
+	padding: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 25px;
+	color: #ffc700;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+input {
+	font-size: 18px;
+	padding: 0 10px;
+	margin-bottom: 20px;
+	height: 45px;
+	border-radius: 5px;
+	border: 2px solid white;
+	transition: all .3s;
+}
+
+.input-container {
+	position: relative;
+	height: 45px;
+	margin-bottom: 20px;
+}
+
+.input-container input {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding-right: 40px;
+}
+
+img {
+	position: absolute;
+	top: 55%;
+    transform: translateY(-55%);
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.error {
+	border-color: #ff715f;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1;
+	margin: 0 0 7px;
+	color: #ff897a;
+}
+
+button {
+	font-family: inherit;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 10px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background: #ffc700;
+	cursor: pointer;
+}
+
+button:active {
+	background: #ffd950;
+	transform: scale(0.99, 0.99);
+}

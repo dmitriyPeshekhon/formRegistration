@@ -1,0 +1,8 @@
+.signUp {
+	width: 100%;
+  	height: 100vh;
+	background: #5a47ab;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
